@@ -15,13 +15,13 @@ async def start(bot: Client, msg: Message):
     mention = user.mention
     await bot.send_message(
         msg.chat.id,
-        text="**شكراً لخوض التجربة مع سورس الجوكر ❤️**",
+        text="**شكراً لخوض التجربة مع سورس ديثون ❤️**",
     )
     await asyncio.sleep(2)
     
     await bot.send_message(
         msg.chat.id,
-        text="**عيش التجربة مع سورس الجوكر من حيث**",
+        text="**عيش التجربة مع سورس ديثون من حيث**",
     )
     await asyncio.sleep(2)
 
