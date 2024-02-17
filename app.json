@@ -1,0 +1,44 @@
+{
+  "name": "Pyrogram And Telethon String Session Generator",
+  "description": "Generate Pyrogram And Telethon String Session Easily",
+  "logo": "https://telegra.ph/file/27bfcfbb9d72fb3f3a1ca.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+  "stack": "container",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "A Bot's token from Botfather",
+      "value": "",
+      "required": true
+    },
+    "DATABASE_URL": {
+      "description": "Mongo DB URL",
+      "value": "",
+      "required": true
+    },
+    "MUST_JOIN": {
+      "description": "Your additional environment variable",
+      "value": "",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
